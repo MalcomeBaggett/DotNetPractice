@@ -1,0 +1,13 @@
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\bin\Debug\netcoreapp3.1\c#basics.exe
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\bin\Debug\netcoreapp3.1\c#basics.deps.json
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\bin\Debug\netcoreapp3.1\c#basics.runtimeconfig.json
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\bin\Debug\netcoreapp3.1\c#basics.runtimeconfig.dev.json
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\bin\Debug\netcoreapp3.1\c#basics.dll
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\bin\Debug\netcoreapp3.1\c#basics.pdb
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\obj\Debug\netcoreapp3.1\c#basics.csprojAssemblyReference.cache
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\obj\Debug\netcoreapp3.1\c#basics.AssemblyInfoInputs.cache
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\obj\Debug\netcoreapp3.1\c#basics.AssemblyInfo.cs
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\obj\Debug\netcoreapp3.1\c#basics.csproj.CoreCompileInputs.cache
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\obj\Debug\netcoreapp3.1\c#basics.dll
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\obj\Debug\netcoreapp3.1\c#basics.pdb
+C:\Users\Malcome\Desktop\dotnetpractice\c#basics\obj\Debug\netcoreapp3.1\c#basics.genruntimeconfig.cache
