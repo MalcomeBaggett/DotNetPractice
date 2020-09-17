@@ -32,6 +32,42 @@ namespace c_basics
             //         result = Console.ReadLine();
             //     } while (result.ToLower() == "yes");
             //     Console.ReadLine();
+
+            // Arrays
+            string[] firstName = new string[5];
+            firstName[0] = "Fiona";
+            firstName[1] = "Fionne";
+            firstName[2] = "Malcome";
+            firstName[3] = "Wunsa";
+            firstName[4] = "Mick";
+
+            string namesString = "Tojo,Mary,Tommy,Carlos,Svenva";
+            string[] names = namesString.Split(",");
+            foreach (var name in names)
+            {
+                Console.WriteLine(name);
+            }
+            Console.WriteLine();
+            for (var i = 0; i <= firstName.Length - 1; i++)
+            {
+                Console.WriteLine(firstName[i]);
+            }
+            Console.WriteLine();
+            int[] numbers = new int[10];
+
+            for (var i = 0; i <= numbers.Length - 1; i++)
+            {
+                numbers[i] = i;
+            }
+            Console.WriteLine($"Numbers Array filled currently has {numbers.Length} numbers in the array");
+            foreach (var item in numbers)
+            {
+                Console.WriteLine(item);
+            }
+            {
+
+            }
+            Console.ReadLine();
         }
     }
 }
