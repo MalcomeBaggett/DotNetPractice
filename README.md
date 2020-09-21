@@ -1,4 +1,4 @@
-# # and .Net Refresher
+# C# and .Net Refresher
 
 ## Welcome!
 
