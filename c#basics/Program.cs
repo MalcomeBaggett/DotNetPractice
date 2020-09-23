@@ -98,10 +98,10 @@ namespace c_basics
 
             // Dictionary
             // Dictionary<int, int> numbers = new Dictionary<int, int>();
-            Dictionary<int, string> importantYears = new Dictionary<int, string>();
-            importantYears[1990] = "I was born";
-            importantYears[1982] = "Fiona was born";
-            importantYears[2020] = "Fionne was born";
+            // Dictionary<int, string> importantYears = new Dictionary<int, string>();
+            // importantYears[1990] = "I was born";
+            // importantYears[1982] = "Fiona was born";
+            // importantYears[2020] = "Fionne was born";
         }
     }
 }
