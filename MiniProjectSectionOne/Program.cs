@@ -15,7 +15,7 @@ namespace MiniProjectSectionOne
             {
                 string userName = GetName();
                 int partyCount = GetPartyCount();
-                Program.AddParty(sesstionDict, userName, partyCount);
+                Program.AddParty(sessionDict, userName, partyCount);
             }
         }
         public Dictionary<string, int> guestBook = new Dictionary<string, int>();
