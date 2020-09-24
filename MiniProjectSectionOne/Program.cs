@@ -7,6 +7,7 @@ namespace MiniProjectSectionOne
     {
         static void Main(string[] args)
         {
+            var sessionDict = Program.guestBook();
             bool endSession = false;
             Console.WriteLine("Welcome to our self serve guest list!");
             Console.WriteLine("Please follow the prompts below to ensure the best check in experience");
@@ -14,7 +15,7 @@ namespace MiniProjectSectionOne
             {
                 string userName = GetName();
                 int partyCount = GetPartyCount();
-                AddParty(userName, partyCount);
+                Program.AddParty(sesstionDict, userName, partyCount);
             }
         }
         public Dictionary<string, int> guestBook = new Dictionary<string, int>();
@@ -35,10 +36,11 @@ namespace MiniProjectSectionOne
             }
             return 1;
         }
-        private static void AddParty(string userName, int partyCount)
+        private static Dictionary<int, string> AddParty(dictionary<int, string> guestBook, string userName, int partyCount)
         {
             guestBook[userName] = partyCount;
             Console.WriteLine($"Your Party has been logged {userName}, please proceed.");
+            return guestBook;
         }
     }
 }
