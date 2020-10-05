@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Malcome\\Desktop\\dotnetpractice\\c#basics\\c#basics.csproj": {}
+    "c:\\Users\\Malcome\\Desktop\\dotnetpractice\\c#basics\\c#basics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Malcome\\Desktop\\dotnetpractice\\c#basics\\c#basics.csproj": {
+    "c:\\Users\\Malcome\\Desktop\\dotnetpractice\\c#basics\\c#basics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Malcome\\Desktop\\dotnetpractice\\c#basics\\c#basics.csproj",
+        "projectUniqueName": "c:\\Users\\Malcome\\Desktop\\dotnetpractice\\c#basics\\c#basics.csproj",
         "projectName": "c#basics",
-        "projectPath": "C:\\Users\\Malcome\\Desktop\\dotnetpractice\\c#basics\\c#basics.csproj",
+        "projectPath": "c:\\Users\\Malcome\\Desktop\\dotnetpractice\\c#basics\\c#basics.csproj",
         "packagesPath": "C:\\Users\\Malcome\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Malcome\\Desktop\\dotnetpractice\\c#basics\\obj\\",
+        "outputPath": "c:\\Users\\Malcome\\Desktop\\dotnetpractice\\c#basics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

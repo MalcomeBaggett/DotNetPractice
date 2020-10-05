@@ -1,24 +1,30 @@
+using System;
+using System.Collections.Generic;
 namespace OOP1
 {
     public class RequestData
     {
-        public static double GetDouble(string message)
+        public List<string> reqUserData()
         {
-            double output;
-            Console.WriteLine(message);
-            string dbl = Console.ReadLine();
-            bool isDouble = double.TryParse(dbl, out output);
+            List<string> userData = new List<string>();
+            string firstName = "";
+            string lastName = "";
+            string email = "";
 
-            while (isDouble == false)
-            {
-                Console.WriteLine("That was not a valid number please try again");
-                Console.Write(message);
-                dbl = Console.ReadLine();
+            Console.WriteLine("Welcome, please follow the prompts below.");
+            Console.WriteLine("Please end your first name");
+            firstName = Console.ReadLine();
+            userData.Add(firstName);
+            Console.WriteLine("Please enter your last name.");
+            lastName = Console.ReadLine();
+            userData.Add(lastName);
+            Console.WriteLine("Pleast enter your email");
+            email = Console.ReadLine();
+            userData.Add(email);
+            Console.Clear();
 
-                isDouble = double.TryParse(dbl, out output);
-            }
-            return output;
-
+            return userData;
         }
+
     }
 }
