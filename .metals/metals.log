@@ -1,0 +1,3 @@
+2020.10.13 18:42:23 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\Malcome\Desktop\dotnetpractice' for client vscode.
+2020.10.13 18:42:26 INFO  time: initialize in 2.14s
+2020.10.13 18:42:28 WARN  no build tool detected in workspace 'C:\Users\Malcome\Desktop\dotnetpractice'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 

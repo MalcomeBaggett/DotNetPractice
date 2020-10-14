@@ -10,7 +10,7 @@ namespace MethodOveriding
             PersonModel person = new PersonModel
             {
                 FirstName = "M",
-                LastName = "B"
+                LastName = "B",
             };
             Console.WriteLine(person);
         }
@@ -27,7 +27,7 @@ namespace MethodOveriding
 
         public class EmployeeModel
         {
-            public decimal HourlyRate { get; set}
+            public decimal HourlyRate { get; set; }
 
             public virtual decimal GetPaycheckAmount(int hoursWorked)
             {
@@ -36,7 +36,7 @@ namespace MethodOveriding
         }
         public class CommisionEmployeeModel : EmployeeModel
         {
-            public decimal CommisionAmount { get; set}
+            public decimal CommisionAmount { get; set; }
             public override decimal GetPaycheckAmount(int hoursWorked, int commsionAmount)
             {
                 return base.GetPaycheckAmount(hoursWorked) + commsionAmount;
