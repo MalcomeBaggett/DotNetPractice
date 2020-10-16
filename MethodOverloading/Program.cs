@@ -20,10 +20,11 @@ namespace MethodOverloading
                 LastName = lastName;
                 Email = email;
             }
-            public PersonMode(string email)
+            public PersonModel(string email)
             {
                 Email = email;
             }
+            public PersonModel() { }
         }
         public class EmployeeModel
         {

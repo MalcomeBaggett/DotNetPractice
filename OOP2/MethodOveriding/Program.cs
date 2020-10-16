@@ -37,9 +37,9 @@ namespace MethodOveriding
         public class CommisionEmployeeModel : EmployeeModel
         {
             public decimal CommisionAmount { get; set; }
-            public override decimal GetPaycheckAmount(int hoursWorked, int commsionAmount)
+            public override decimal GetPaycheckAmount(int hoursWorked)
             {
-                return base.GetPaycheckAmount(hoursWorked) + commsionAmount;
+                return (hoursWorked * HourlyRate) + CommisionAmount;
             }
         }
     }
